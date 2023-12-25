@@ -1,9 +1,9 @@
 import "../../styles/landing_page.css";
-
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 function CopyRight(){
     return <div className="copyright-button-box">
-        <button>copyright</button>
+        <GitHubIcon />
+        <p>coldKaushal/blog-app</p>
     </div>
 }
 
