@@ -15,15 +15,17 @@
 }
 
 .contribute-button-box{
-    margin: 20px 20px 0px auto;
     display: flex;
     align-items: center;
+    margin: 20px 20px 0px auto;
     padding: 5px 10px;
-    border-radius: 10px;
     background-color: #40c463;
     color: white;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.contribute-button-box:hover{
+    box-shadow: 0 4px 8px 5px rgba(47, 141, 93, 0.804);
 }
 .contribute-button-content{
     margin: 0px;
